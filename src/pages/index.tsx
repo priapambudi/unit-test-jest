@@ -6,10 +6,11 @@ import Typography from "@/components/ui/Typography";
 export default function Home() {
   return (
     <div>
-      <Typography>Add A User </Typography>
+      {/* <Typography>Add A User </Typography>
       <Input type="text" label="Name" name="name" />
       <br />
-      <Button onClick={() => {}}>Add User</Button>
+      <Button onClick={() => {}}>Add User</Button> */}
+      <HomepageView />
     </div>
   );
 }

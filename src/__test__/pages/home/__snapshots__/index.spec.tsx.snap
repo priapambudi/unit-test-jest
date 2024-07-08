@@ -3,7 +3,41 @@
 exports[`render home should render home 1`] = `
 <div>
   <div>
-    Homepage
+    <h1>
+      Add a User
+    </h1>
+    <p>
+      Form
+    </p>
+    <label
+      for="name"
+    >
+      name
+    </label>
+     
+    <br />
+    <input
+      id="name"
+      type="text"
+    />
+    <br />
+    <label
+      for="email"
+    >
+      email
+    </label>
+     
+    <br />
+    <input
+      id="email"
+      type="text"
+    />
+    <br />
+    <button
+      class="primary"
+    >
+      Submit
+    </button>
   </div>
 </div>
 `;

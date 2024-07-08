@@ -2,8 +2,8 @@
 
 exports[`typography component should render typography component 1`] = `
 <div>
-  <div>
+  <h1>
     test
-  </div>
+  </h1>
 </div>
 `;

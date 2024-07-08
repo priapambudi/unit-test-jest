@@ -4,10 +4,10 @@ import Input from "@/components/ui/Input";
 
 describe("input component", () => {
   it("should render input type text", () => {
-    const { container, getBylabelText } = render(
+    const { container, getByLabelText } = render(
       <Input type={"text"} label={"test"} name={"test"} />
     );
-    const input = getBylabelText("test");
+    const input = getByLabelText("test");
     expect(input).toBeInTheDocument();
     expect(container).toMatchSnapshot();
   });

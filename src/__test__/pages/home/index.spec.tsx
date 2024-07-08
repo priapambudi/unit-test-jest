@@ -1,6 +1,6 @@
 import React from "react";
 import { fireEvent, render } from "@testing-library/react";
-import HomepageView from "@/components/pages/Home";
+import HomepageView from "../../../components/pages/Home";
 
 describe("render home", () => {
   it("should render home", () => {
@@ -11,5 +11,6 @@ describe("render home", () => {
     const { getByText } = render(<HomepageView />);
     const buttonSubmit = getByText("Submit");
     fireEvent.click(buttonSubmit);
+    expect(buttonSubmit).toBeInTheDocument();
   });
 });
